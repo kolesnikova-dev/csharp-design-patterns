@@ -1,5 +1,7 @@
 public class Database
 {
+    // The private constructor prevents external instantiation,
+    // while the static method provides a controlled access point to the single instance
     private static Database _instance;
     // private constructor
     private Database()
